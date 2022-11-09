@@ -6,8 +6,13 @@ body {
     font-family: "IBM Plex Serif", sans-serif;
 }
 
-.teamHeader {
-    color: #4a86e8;
+h1 {
     text-transform: uppercase;
+    text-align: center;
     font-family: 'Rajdhani', sans-serif;
+}
+
+.teamHeader {
+    font-size: 70px;
+    color: #4a86e8;
 }
