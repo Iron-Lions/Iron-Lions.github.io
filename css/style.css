@@ -24,3 +24,11 @@ nav {
     overflow: hidden;
     text-align: center;
 }
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
