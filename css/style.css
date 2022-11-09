@@ -16,3 +16,8 @@ h1 {
     font-size: 70px;
     color: #4a86e8;
 }
+
+nav {
+    overflow: hidden;
+    text-align: center;
+}
