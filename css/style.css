@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=Noto+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&display=swap');
 
 
 body {
@@ -24,6 +24,7 @@ header {
 
 nav {
     font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
     color: #a4c2f4;
     font-size: 27pt;
     overflow: hidden;
@@ -39,7 +40,19 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.aboutHeader {
+.aboutheaders {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Rajdhani";
     font-size: 43pt;
+    font-weight: normal;
     color: #ffffff;
+}
+
+.aboutboxes {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 38pt;
+    font-weight: normal; 
 }
