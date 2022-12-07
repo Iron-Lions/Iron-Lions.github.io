@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=Noto+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 
 
 body {
@@ -24,7 +24,6 @@ header {
 
 nav {
     font-family: "Rajdhani", sans-serif;
-    font-weight: bold;
     color: #a4c2f4;
     font-size: 27pt;
     overflow: hidden;
@@ -40,51 +39,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.color-test{
-    color: white;
-    font-family: 'Rajdhani';
-    text-align: center;
-    font-size: 18pt;
-    line-height: 1.5;
-    padding-bottom: 36%;
-
-}
-
-.resourceimg {
-    float: right;
-    width: 500px;
-    height: 700px;
-    padding-right: 5%;
-    padding-left: 8%;
-}
-
-.firstwebhyper {
-    color: blue;
-    font-size: 35px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    margin: auto;
-}
-
-.firstlogo{
-    padding-top: 2.5%;
-}
-
-.aboutheaders {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: "Rajdhani";
+.aboutHeader {
     font-size: 43pt;
     font-weight: lighter;
     color: #ffffff;
 }
-.aboutboxes {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: "Rajdhani";
-    font-size: 38pt;
-    font-weight: lighter;
-    color: #000;
-    background-color: #c9daf8ff;
-}
+
