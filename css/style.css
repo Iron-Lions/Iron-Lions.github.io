@@ -45,7 +45,7 @@ nav a:hover {
     text-align: center;
     font-family: "Rajdhani";
     font-size: 43pt;
-    font-weight: normal;
+    font-weight: bolder;
     color: #ffffff;
 }
 
@@ -54,6 +54,7 @@ nav a:hover {
     text-align: center;
     font-family: "Rajdhani";
     font-size: 38pt;
-    font-weight: normal; 
+    font-weight: lighter;
+    color: #000;
     background-color: #c9daf8ff;
 }
