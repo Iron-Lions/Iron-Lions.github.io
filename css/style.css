@@ -46,7 +46,7 @@ nav a:hover {
     text-align: center;
     font-size: 18pt;
     line-height: 1.5;
-    padding-bottom: 36%;
+    padding-bottom: 2%;
 
 }
 
@@ -61,14 +61,15 @@ nav a:hover {
 .firstwebhyper {
     color: blue;
     font-size: 35px;
-    text-decoration: none;
     text-align: center;
     display: block;
     margin: auto;
+
 }
 
 .firstlogo{
     padding-top: 2.5%;
+    padding-left: 12%;
 }
 
 .aboutheaders {
