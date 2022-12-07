@@ -40,6 +40,37 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.color-test{
+    color: white;
+    font-family: 'Rajdhani';
+    text-align: center;
+    font-size: 18pt;
+    line-height: 1.5;
+    padding-bottom: 36%;
+
+}
+
+.resourceimg {
+    float: right;
+    width: 500px;
+    height: 700px;
+    padding-right: 5%;
+    padding-left: 8%;
+}
+
+.firstwebhyper {
+    color: blue;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.firstlogo{
+    padding-top: 2.5%;
+}
+
 .aboutheaders {
     text-transform: uppercase;
     text-align: center;
@@ -48,7 +79,6 @@ nav a:hover {
     font-weight: lighter;
     color: #ffffff;
 }
-
 .aboutboxes {
     text-transform: uppercase;
     text-align: center;
