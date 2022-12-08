@@ -87,4 +87,6 @@ nav a:hover {
     font-weight: lighter;
     color: #000;
     background-color: #c9daf8ff;
+    text-decoration: none;
+    text-align:center;
 }
