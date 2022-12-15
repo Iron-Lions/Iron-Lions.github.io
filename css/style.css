@@ -59,14 +59,27 @@ nav a:hover {
     margin-right: auto;
 }
 
+.handbook {
+    text-decoration: none;
+}
+
+.handbook:hover {
+    text-decoration: underline;
+}
+
 .firstwebhyper {
     color: blue;
+    text-decoration: none;
     font-size: 35px;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1%;
+}
+
+.firstwebhyper:hover {
+    text-decoration: underline;
 }
 
 .firstlogo{
@@ -130,3 +143,4 @@ nav a:hover {
     margin-right: auto;
     float: right
 }
+
