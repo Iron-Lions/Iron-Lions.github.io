@@ -128,5 +128,67 @@ nav a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    float: center;
+}
+
+.Building_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: right
+}
+
+.Programming_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center
+}
+
+.Strategy_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right
+}
+
+.Outreach_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.Roster_Header {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Rajdhani", sans-serif;
+    float: center;
+    color: #4a86e8;
 }
