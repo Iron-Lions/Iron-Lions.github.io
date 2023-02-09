@@ -40,9 +40,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-footer {
+/* footer {
     border-top: ;
-}
+} */
 
 .color-test {
     color: white;
@@ -111,40 +111,4 @@ footer {
     font-weight: lighter;
     color: #000;
     background-color: #c9daf8ff;
-}
-
-.building_image {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: left
-}
-
-.programming_image {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right
-}
-
-.strategy_image {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: left
-}
-
-.outreach_image {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right
 }
