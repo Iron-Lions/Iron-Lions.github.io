@@ -4,17 +4,19 @@
 :root {
     --body-bg-color: #212121;
     --navbar-text-color: #a4c2f4;
+    --h-font: "Rajdhani", sans-serif;
+    --p-font: "IBM Plex Serif", sans-serif;
 }
 
 body {
     background-color: var(--body-bg-color);
-    font-family: "IBM Plex Serif", sans-serif;
+    font-family: var(--p-font);
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-family: "Rajdhani", sans-serif;
+    font-family: var(--h-font);
 }
 
 .teamHeader {
@@ -23,7 +25,7 @@ h1 {
 }
 
 nav {
-    font-family: "Rajdhani", sans-serif;
+    font-family: var(--h-font);
     font-weight: bold;
     color: var(--navbar-text-color);
     font-size: 27pt;
@@ -46,7 +48,7 @@ nav a:hover {
 
 .color-test {
     color: white;
-    font-family: 'Rajdhani';
+    font-family: var(--h-font);
     text-align: center;
     font-size: 18pt;
     line-height: 1.5;
@@ -97,16 +99,15 @@ nav a:hover {
 .aboutheaders {
     text-transform: uppercase;
     text-align: center;
-    font-family: "Rajdhani";
+    font-family: var(--h-font);
     font-size: 43pt;
     font-weight: lighter;
     color: #ffffff;
 }
 
 .aboutboxes {
-    text-transform: uppercase;
     text-align: center;
-    font-family: "Rajdhani";
+    font-family: var(--h-font);
     font-size: 38pt;
     font-weight: lighter;
     color: #000;
