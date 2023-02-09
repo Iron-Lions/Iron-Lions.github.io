@@ -17,9 +17,6 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-family: var(--h-font);
-}
-
-.teamHeader {
     font-size: 50pt;
     color: #4a86e8;
 }
