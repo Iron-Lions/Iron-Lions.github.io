@@ -1,38 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=Noto+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&display=swap');
 
+:root {
+    --body-bg-color: #212121;
+    --navbar-text-color: #a4c2f4;
+    --h-font: "Rajdhani", sans-serif;
+    --p-font: "IBM Plex Serif", sans-serif;
+}
 
 body {
-    background-color: #212121;
-    font-family: "IBM Plex Serif", sans-serif;
+    background-color: var(--body-bg-color);
+    font-family: var(--p-font);
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-family: "Rajdhani", sans-serif;
-}
-
-.teamHeader {
+    font-family: var(--h-font);
     font-size: 50pt;
     color: #4a86e8;
 }
 
-header {
-    color: #666666;
-}
-
 nav {
-    font-family: "Rajdhani", sans-serif;
+    font-family: var(--h-font);
     font-weight: bold;
-    color: #a4c2f4;
+    color: var(--navbar-text-color);
     font-size: 27pt;
     overflow: hidden;
     text-align: center;
 }
 
 nav a {
-    color: #a4c2f4;
+    color: var(--navbar-text-color);
     text-decoration: none;
 }
 
@@ -40,9 +39,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.color-test{
+/* footer {
+    border-top: ;
+} */
+
+.color-test {
     color: white;
-    font-family: 'Rajdhani';
+    font-family: var(--h-font);
     text-align: center;
     font-size: 18pt;
     line-height: 1.5;
@@ -55,12 +58,21 @@ nav a:hover {
     width: 500px;
     height: 700px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.handbook {
+    text-decoration: none;
+}
+
+.handbook:hover {
+    text-decoration: underline;
 }
 
 .firstwebhyper {
     color: blue;
+    text-decoration: none;
     font-size: 35px;
     text-align: center;
     display: block;
@@ -69,7 +81,11 @@ nav a:hover {
     padding-bottom: 1%;
 }
 
-.firstlogo{
+.firstwebhyper:hover {
+    text-decoration: underline;
+}
+
+.firstlogo {
     width: 625px;
     height: 375px;
     display: block;
@@ -80,20 +96,121 @@ nav a:hover {
 .aboutheaders {
     text-transform: uppercase;
     text-align: center;
-    font-family: "Rajdhani";
+    font-family: var(--h-font);
     font-size: 43pt;
     font-weight: lighter;
     color: #ffffff;
 }
+
 .aboutboxes {
-    text-transform: uppercase;
     text-align: center;
-    font-family: "Rajdhani";
+    font-family: var(--h-font);
     font-size: 38pt;
     font-weight: lighter;
     color: #000;
     background-color: #c9daf8ff;
 }
+<<<<<<< HEAD
+
+.building_image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left
+}
+
+.programming_image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right
+}
+
+.strategy_image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left
+}
+
+.outreach_image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+
+.Building_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right
+}
+
+.Programming_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center
+}
+
+.Strategy_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right
+}
+
+.Outreach_Table {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.Roster_Header {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Rajdhani", sans-serif;
+    float: center;
+    color: #4a86e8;
+}
+=======
+>>>>>>> 6054656155a0809563c4e9d31925cf20f97f7930
 
 .building_image {
     width: 200px;
