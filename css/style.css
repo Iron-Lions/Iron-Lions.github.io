@@ -110,7 +110,7 @@ nav a:hover {
     background-color: #c9daf8ff;
 }
 
-/* Image Slider starts here*/
+/* Image Slideshow starts here*/
 .slider {
     position: relative;
     overflow: hidden;
@@ -173,7 +173,7 @@ nav a:hover {
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 65%;
+    top: 60%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -195,4 +195,4 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-/* Image Slider ends here */
+/* Image Slideshow ends here */
