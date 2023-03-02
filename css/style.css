@@ -102,7 +102,8 @@ nav a:hover {
 }
 
 .box {
-  background-color: white;
+  text-align: center;
+  background-color: #c9daf8ff;  
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -117,7 +118,6 @@ nav a:hover {
     color: #000;
     background-color: #c9daf8ff;
 }
-<<<<<<< HEAD
 
 .building_image {
     width: 200px;
@@ -216,8 +216,6 @@ nav a:hover {
     float: center;
     color: #4a86e8;
 }
-=======
->>>>>>> 6054656155a0809563c4e9d31925cf20f97f7930
 
 .building_image {
     width: 200px;
@@ -292,52 +290,4 @@ nav a:hover {
     opacity: 1;
     position: relative;
   }
-  
-  .dots {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 10px;
-    border-radius: 50%;
-    background-color: #bbb;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 60%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-
 /* Image Slideshow ends here */
